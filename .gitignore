@@ -10,6 +10,7 @@
 
 # production
 /build
+firebase-tools-instant-win.exe
 
 # misc
 .DS_Store
