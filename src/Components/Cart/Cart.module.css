@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   max-height: 25rem;
-  overflow: scroll;
+  overflow: auto; /* Use auto to only show scrollbar when needed */
 }
 
 .total {
@@ -22,25 +22,29 @@
 .actions button {
   font: inherit;
   cursor: pointer;
-  background-color: transparent;
-  border: 1px solid #8a2b06;
+  background-color: teal; /* Teal background */
+  border: 1px solid teal; /* Teal border */
   padding: 0.5rem 2rem;
   border-radius: 25px;
   margin-left: 1rem;
+  color: white; /* White text color */
 }
 
 .actions button:hover,
 .actions button:active {
-  background-color: #5a1a01;
-  border-color: #5a1a01;
-  color: white;
+  background-color: #007d71; /* Darker teal on hover/active */
+  border-color: #007d71; /* Darker teal border on hover/active */
 }
-
 .actions .button--alt {
-  color: #8a2b06;
+  background-color: rgb(84, 189, 189);
+  color: #011a17;
+  font-weight: bolder;
 }
-
+.actions .button--alt:hover {
+  color: rgb(246, 250, 250); /* Teal color for better contrast */
+  background-color: #011a17;
+}
 .actions .button {
-  background-color: #8a2b06;
-  color: white;
+  background-color: teal; /* Teal background */
+  color: white; /* White text color */
 }

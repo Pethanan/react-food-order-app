@@ -4,14 +4,15 @@
   left: 0;
   width: 100%;
   height: 5rem;
-  background-color: #8a2b06;
-  color: white;
+  background-color: rgb(3, 32, 32); /* Light gray background */
+  color: white; /* Dark gray text color */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10%;
+  padding: 0 4%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 10;
+  border-bottom: 0 solid #ddd; /* Add a subtle border bottom */
 }
 
 .main-image {
