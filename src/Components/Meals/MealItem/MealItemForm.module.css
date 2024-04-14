@@ -1,9 +1,13 @@
 .form {
   text-align: right;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .form button {
   font: inherit;
+  width: 70%;
   cursor: pointer;
   background-color: teal;
   border: 1px solid teal;
