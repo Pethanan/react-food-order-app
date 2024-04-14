@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
   max-height: 25rem;
-  overflow: auto; /* Use auto to only show scrollbar when needed */
+  overflow: auto;
+  background-color: white;
 }
 
 .total {
@@ -27,12 +28,12 @@
   padding: 0.5rem 2rem;
   border-radius: 25px;
   margin-left: 1rem;
-  color: white; /* White text color */
+  color: rgb(1, 17, 17); /* White text color */
 }
 
 .actions button:hover,
 .actions button:active {
-  background-color: #007d71; /* Darker teal on hover/active */
+  background-color: #011b19; /* Darker teal on hover/active */
   border-color: #007d71; /* Darker teal border on hover/active */
 }
 .actions .button--alt {
